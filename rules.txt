@@ -1,7 +1,6 @@
 ! Title: 🌸RabbitBlock🌸
 xn--*
 xn--*$doc,popup,frame
-.svg^$important
 *##+js(prevent-canvas, /webgl/)
 *##+js(prevent-canvas, /webgpu/)
 *##+js(nowebrtc)
