@@ -4,7 +4,6 @@ xn--*$doc,popup,frame
 *##+js(prevent-canvas, /webgl/)
 *##+js(prevent-canvas, /webgpu/)
 *##+js(nowebrtc)
-*##+js(set, navigator.sendBeacon, trueFunc)
 ||doubleclick.net^$important,all
 ||google-analytics.com^$important,all
 ||facebook.com^$important,all,third-party
