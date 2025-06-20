@@ -1,9 +1,13 @@
 ! Title: 🌸RabbitBlock🌸
 xn--*
 xn--*$doc,popup,frame
+*##+js(set, navigator.globalPrivacyControl, true)
+*##+js(set, navigator.sendBeacon, falseFunc)
 *##+js(prevent-canvas, /webgl/)
 *##+js(prevent-canvas, /webgpu/)
 *##+js(nowebrtc)
+*##+js(aeld, pagehide)
+*##+js(aeld, visibilitychange)
 ||doubleclick.net^$important,all
 ||google-analytics.com^$important,all
 ||facebook.com^$important,all,third-party
@@ -91,10 +95,29 @@ xn--*$doc,popup,frame
 /vcmedia.js$script
 /whiteops.js$script
 /yandex_metrics.js$script
+||aa.com
+||buienradar.nl
+||cardinalcommerce.com
+||chipotle.com
+||collegeboard.org
+||cvs.com
+||getthefuturist.com
+||google.co.uk
+||grubhub.com
+||jimmyjohns.com
+||kroger.com
+||krogercdn.com
+||lines98.ru
+||okta.com
+||oktacdn.com
+||southwest.com
+||stripe.com
+||stripe.network
+||stripecdn.com
 ||browserleaks.com/js/javascript.js$script
 ||cdn-net.com/cc.js$script
 ||maxmind.com/v/*/js/device.js$script
-||www.google.com
+||google.com
 ||fonts.googleapis.com
 ||fonts.gstatic.com
 ||www.gstatic.com
