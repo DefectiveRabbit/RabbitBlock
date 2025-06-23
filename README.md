@@ -1,7 +1,7 @@
 # RabbitBlock
 My own filterlist to fill in blanks that others may not. Feel free to use if you want. 
 
-Disclaimer: this list will most definitely break a lot of things.
+Disclaimer: this list **will most definitely break a lot of things.**
 While you can use this in most browsers with a powerful adblocker this list was primarily intended for less effective privacy browsers like Vivaldi as an example.
 
 I would also like to credit @celenityy aswell. as a considerable portion of what is in the list comes from them and they were my main motivation for the list with their BadBlock project. As such i would like to leave a link to their [BadBlock project](https://badblock.celenity.dev/) here and i would highly recommend if you are comfortable with breakage to go check out their lists. Really they are some of the best aggressive lists while still being rational.
