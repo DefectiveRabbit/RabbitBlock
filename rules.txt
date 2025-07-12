@@ -235,5 +235,3 @@ search.brave.com##+js(set-local-storage-item, app.usageMetricsOptOut, true)
 ||variations.bravesoftware.com^
 ||wdp.brave.com^
 search.brave.com##+js(set-cookie, useLocation, 0)
-
-www.reddit.com##[src*="iVBORw0KGgoAAAANSUhEUgAAAVAAAAFQCAYAAADp6CbZAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAABUKADAAQAAAABAAABUAAAAAAV7ikLAABAAElEQVR4Aey9CZAlyXnfl++9vo85d2ewBxaLYwEYFwEQICCeIiGQBA1a4mGatEMKBiVTohWyGJapCDpsGQ4j"]
