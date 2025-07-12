@@ -1,4 +1,4 @@
-! Title: 🌸🦊🔥RabbitBlock🔥🦊🌸
+! Title: 🌸RabbitBlockFirefox🔥🦊🌸
 xn--*
 xn--*$doc,popup,frame
 *##+js(prevent-canvas, /webgl/)
