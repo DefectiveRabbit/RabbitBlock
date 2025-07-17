@@ -28,4 +28,6 @@ It catches a lot of bad things and is frequently updated. a good general list th
 
 Like BadBlock this is a very well done list that isn't afraid to cause breakage. as such it fits in very well here.
 
+# Credits
 
+You can find Credits [here.](https://github.com/DefectiveRabbit/RabbitBlock/blob/main/CREDITS.md)
