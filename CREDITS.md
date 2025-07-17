@@ -4,4 +4,4 @@ Licensed under GPL-3.0
 
 # **Tavi**
 My list includes their [Fingerprinting Blocklist](https://divested.dev/blocklists/Fingerprinting.ubl) currently.
-Licensed under CCO
+Licensed under CC0
