@@ -1,4 +1,9 @@
 ! Title: 🌸RabbitBlock🌸
+# Projects that have helped make this list but are not affiliated with me whatsoever
+# If you are responsible for one of the listed projects and would like me to remove something that is in the list or have another request please open a Github issue.
+# GPL-3.0 https://badblock.celenity.dev/
+# CC0 https://divested.dev/blocklists/Fingerprinting.ubl
+
 xn--*
 xn--*$doc,popup,frame
 *##+js(set, navigator.globalPrivacyControl, true)
