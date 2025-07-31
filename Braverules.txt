@@ -6,6 +6,7 @@
 
 xn--*
 xn--*$doc,popup,frame
+.svg^$important
 *##+js(set, navigator.sendBeacon, falseFunc)
 *##+js(prevent-canvas, /webgl/)
 *##+js(prevent-canvas, /webgpu/)
@@ -69,6 +70,26 @@ xn--*$doc,popup,frame
 @@||www.google.com/recaptcha/$third-party,subdocument
 ||www.gstatic.com^$important,all,third-party,script
 @@||www.gstatic.com/recaptcha/$third-party,script
+/favicon.ico|
+/favicon.png|
+/favicon.svg|
+/assets/favicon^
+/cropped-favicon-*.png|
+/favico.ico|
+/favico.png|
+/favicon-*.png|
+/favicon-32.gif|
+/favicon.*.ico|
+/favicon.ico?
+/favicon_black.ico|
+/favicon_desktop_*.png|
+/favicon_round.ico|
+/favicon_v*.ico|
+/favicons/*.png|
+/img/favicon^
+/media/favicon/*
+/web/favicons/*
+_favicon_*.ico|
 /browser_fingerprint*$script
 /detect-font-loading*$script
 /evercookie/*
