@@ -1,4 +1,4 @@
-! Title: 🌸RabbitBlock🦁🌸
+! Title: 🌸RabbitBlockBrave🌸
 # Projects that have helped make this list but are not affiliated with me whatsoever
 # If you are responsible for one of the listed projects and would like me to remove something that is in the list or have another request please open a Github issue.
 # GPL-3.0 https://badblock.celenity.dev/
