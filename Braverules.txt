@@ -8,6 +8,7 @@
 xn--*
 xn--*$doc,popup,frame
 .svg^$important
+*##+js(set, navigator.sendBeacon, falseFunc)
 *##+js(prevent-canvas, /webgl/)
 *##+js(prevent-canvas, /webgpu/)
 *##+js(nowebrtc)
