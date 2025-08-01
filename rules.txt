@@ -3,6 +3,7 @@
 # If you are responsible for one of the listed projects and would like me to remove something that is in the list or have another request please open a Github issue.
 # GPL-3.0 https://badblock.celenity.dev/
 # CC0 https://divested.dev/blocklists/Fingerprinting.ubl
+# https://github.com/yokoffing/filterlists
 
 xn--*
 xn--*$doc,popup,frame
@@ -191,6 +192,39 @@ _favicon_*.ico|
 ||api.bugsnag.com
 ||app.bugsnag.com
 ||browser.sentry-cdn.com
+||player.hotmart.com/$3p,frame,redirect=click2load.html
+||player.megaphone.fm/$3p,frame,redirect=click2load.html
+||player.simplecast.com^$3p,frame,redirect=click2load.html
+||player.twitch.tv/$3p,frame,redirect=click2load.html,domain=~thebluealliance.com
+||player.vimeo.com/video^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~openai.com|~video.search.yahoo.com|~window-swap.com
+||playlist.megaphone.fm/$3p,frame,redirect=click2load.html
+||podbean.com/player-v2/$3p,frame,redirect=click2load.html
+||quizlet.com/$3p,frame,redirect=click2load.html
+||reddit.com/mediaembed/$3p,frame,redirect=click2load.html
+||rutube.ru/play/embed/$3p,frame,redirect=click2load.html
+||s3.amazonaws.com/embed.animoto.com/$3p,frame,redirect=click2load.html
+||safe.txmblr.com^$3p,frame,redirect=click2load.html
+||scribd.com/embeds/$3p,frame,redirect=click2load.html
+||stay22.com/embed/$3p,frame,redirect=click2load.html
+||static.vidgyor.com/player/$3p,frame,redirect=click2load.html
+||traderjoexyz.com/$3p,frame,redirect=click2load.html
+||trinitymedia.ai/player/trinity-player.php*$3p,frame,redirect=click2load.html
+||truthsocial.com^$3p,frame,redirect=click2load.html
+||twitch.tv^$3p,frame,redirect=click2load.html,domain=~thebluealliance.com
+||vimeo.com/event/$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
+||view.genial.ly$3p,frame,redirect=click2load.html
+||vk.com/video_ext$3p,frame,redirect=click2load.html
+||volume.vox-cdn.com/embed/$3p,frame,redirect=click2load.html
+||w.soundcloud.com/player/$3p,frame,redirect=click2load.html
+||youtube-nocookie.com/embed^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
+||youtube.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~chatreplay.stream|~google.com|~duckduckgo.com|~video.search.yahoo.com|~w2g.tv|~thebluealliance.com|~theguardian.com|~songsterr.com
+||embed.reddit.com^$3p,frame,redirect=click2load.html
+||tiktok.com/embed^$3p,frame,redirect=click2load.html
+||cdpn.io/$3p,frame,redirect=click2load.html
+||codepen.io/$3p,frame,redirect=click2load.html
+||cdn.embedly.com/widgets/$3p,frame,redirect=click2load.html
+||cdn.embedly.com/widgets/media.html*$3p,frame,redirect=click2load.html
+||gfycat.com/$3p,frame,redirect=click2load.html
 ||ads*.brave.com^
 ||ads*.bravesoftware.com^
 ||rewards*.bravesoftware.com^
@@ -261,3 +295,31 @@ search.brave.com##+js(set-local-storage-item, app.usageMetricsOptOut, true)
 ||variations.bravesoftware.com^
 ||wdp.brave.com^
 search.brave.com##+js(set-cookie, useLocation, 0)
+www.youtube.com###actions.ytd-watch-metadata button > div[class$="text-content"]:not(:has-text(/[\d]/))
+www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next .yt-spec-button-shape-next--button-text-content
+www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -6px !important;)
+m.youtube.com##ytm-slim-video-action-bar-renderer button [class*="button-text-content"]:not(:has-text(/\d/))
+m.youtube.com##ytm-slim-video-action-bar-renderer ytm-button-renderer div[class$="icon"]:style(margin-right: -6px !important; margin-left: -6px !important;)
+www.youtube.com###chat:remove()
+www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##+js(aeld, dblclick)
+www.youtube.com##.ytp-suggested-action-badge-expanded
+www.youtube.com##.ytp-paid-content-overlay
+www.youtube.com##ytd-browse ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
+www.youtube.com##ytd-browse ytd-rich-item-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"]:upward(ytd-item-section-renderer)
+youtube.com##.ytp-button.branding-img-container
+youtube.com##.ytp-quality-menu .ytp-premium-label:upward(.ytp-menuitem)
+youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
+www.youtube.com##ytd-app:style(--ytd-app-fullerscreen-scrollbar-width: -1px !important;)
+www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-verified.badge
+www.youtube.com##.ytd-comment-renderer #author-text:remove-attr(hidden)
+www.youtube.com##.ytd-comment-renderer #author-comment-badge
+www.youtube.com##ytd-video-meta-block + ytd-badge-supported-renderer
+www.youtube.com##yt-smartimation > *:not(.smartimation__content)
+||youtube.com/youtubei/v1/updated_metadata
+www.youtube.com###description #info a[href^="/hashtag/"]
+www.youtube.com###super-title
+www.youtube.com##.super-title
+m.youtube.com##.standalone-collection-badge a[href^="/hashtag/"]
+m.youtube.com##ytm-video-description-header-renderer button-view-model a[href^="/hashtag/"]
